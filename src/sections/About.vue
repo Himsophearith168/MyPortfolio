@@ -52,11 +52,11 @@
             <div class="about-info-grid mb-5">
               <div class="info-item">
                 <span class="info-label">Name</span>
-                <span class="info-value">Heng SopheaRith</span>
+                <span class="info-value">Him SopheaRith</span>
               </div>
               <div class="info-item">
                 <span class="info-label">Email</span>
-                <span class="info-value">homsophearith44@gmail.com</span>
+                <span class="info-value">himsophearith44@gmail.com</span>
               </div>
               <div class="info-item">
                 <span class="info-label">Location</span>

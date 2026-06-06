@@ -24,13 +24,13 @@
                   </p>
 
                   <div class="contact-methods">
-                    <a href="mailto:homsophearith44@gmail.com" class="method-item">
+                    <a href="mailto:himsophearith44@gmail.com" class="method-item">
                       <div class="method-icon">
                         <i class="fas fa-envelope"></i>
                       </div>
                       <div class="method-info">
                         <span class="method-label">Email</span>
-                        <span class="method-value">homsophearith44@gmail.com</span>
+                        <span class="method-value">himsophearith44@gmail.com</span>
                       </div>
                       <i class="fas fa-arrow-right method-arrow"></i>
                     </a>
@@ -92,7 +92,7 @@
                               type="text"
                               v-model="form.name"
                               required
-                              placeholder="John Doe"
+                              placeholder="Your Name"
                               class="field-input"
                             />
                           </div>
@@ -107,7 +107,7 @@
                               type="email"
                               v-model="form.email"
                               required
-                              placeholder="john@example.com"
+                              placeholder="youremail@example.com"
                               class="field-input"
                             />
                           </div>
