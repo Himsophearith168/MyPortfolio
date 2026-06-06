@@ -17,28 +17,28 @@
             title="E-Commerce Platform"
             description="A full-stack e-commerce website with user authentication, product catalog, and shopping cart."
             image="/images/Header_Image1.jpg"
-            link="https://github.com/sophearith168-hengheng/ecommerce-platform"
-            technologies="Vue.js, Node.js, Express, MongoDB"
+            link="https://github.com/Himsophearith168/ecommerce_angular.git"
+            technologies="Angular.js, Node.js, Express, MySQL"
           />
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <ProjectCard
-            title="Portfolio Website"
-            description="A responsive portfolio website showcasing my skills and projects with modern design."
+            title="Room Rental Management System"
+            description="A System for managing room rentals, including booking, payment processing, and admin dashboard."
             image="/images/Header_Image2.jpg"
-            link="https://github.com/sophearith168-hengheng/portfolio"
-            technologies="Vue.js, Bootstrap, CSS3"
+            link="https://github.com/Himsophearith168/rentroomMS.git"
+            technologies="Vue.js, Node.js, Express, MySQL"
           />
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <ProjectCard
-            title="POS System"
-            description="A comprehensive Point of Sale system with inventory management and sales tracking."
+            title="AlumiNet System"
+            description="A System that Admin can Manage the alunmi profile score and certificate by Generate"
             image="/images/IMG_3186.jpg"
-            link="https://github.com/sophearith168-hengheng/POS_Midterm_Rith"
-            technologies="Laravel, Vue.js, MySQL"
+            link="https://github.com/Sourcedevkh/alumniNet-web.git"
+            technologies="Node.js, Vue.js, MySQL"
           />
         </div>
       </div>
