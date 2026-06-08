@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4">
           <ProjectCard
             title="E-Commerce Platform"
             description="A full-stack e-commerce website with user authentication, product catalog, and shopping cart."
@@ -22,7 +22,7 @@
           />
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4">
           <ProjectCard
             title="Room Rental Management System"
             description="A System for managing room rentals, including booking, payment processing, and admin dashboard."
@@ -32,7 +32,16 @@
           />
         </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <ProjectCard
+            title="AlumiNet System"
+            description="A System that Admin can Manage the alunmi profile score and certificate by Generate"
+            image="/images/IMG_3186.jpg"
+            link="https://github.com/Sourcedevkh/alumniNet-web.git"
+            technologies="Node.js, Vue.js, MySQL"
+          />
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
           <ProjectCard
             title="AlumiNet System"
             description="A System that Admin can Manage the alunmi profile score and certificate by Generate"
