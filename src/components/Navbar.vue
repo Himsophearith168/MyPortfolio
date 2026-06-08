@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg fixed-top"
+    class="navbar navbar-expand-lg fixed-top mb-5"
     :class="{ 'is-scrolled': isScrolled }"
   >
     <!-- Progress Bar -->

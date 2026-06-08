@@ -27,10 +27,10 @@ const skills = [
   { name: "Angular", icon: "fab fa-angular", color: "linear-gradient(135deg, #dd0031, #c3002f)", desc: "Enterprise Platform" },
   { name: "Bootstrap", icon: "fab fa-bootstrap", color: "linear-gradient(135deg, #7952b3, #563d7c)", desc: "UI Framework" },
   { name: "Node.js", icon: "fab fa-node-js", color: "linear-gradient(135deg, #339933, #68a063)", desc: "JS Runtime" },
-  { name: "Laravel", icon: "fab fa-laravel", color: "linear-gradient(135deg, #ff2d20, #e74325)", desc: "PHP Framework" },
+  { name: "MySQL", icon: "fas fa-database", color: "linear-gradient(135deg, #00758f, #f29111)", desc: "Database" },
   { name: "Figma", icon: "fab fa-figma", color: "linear-gradient(135deg, #f24e1e, #ff7262)", desc: "Design Tool" },
-  { name: "Adobe XD", icon: "fab fa-adobe", color: "linear-gradient(135deg, #ff61f6, #ff2bc2)", desc: "Prototyping" },
-  { name: "Photoshop", icon: "fab fa-adobe", color: "linear-gradient(135deg, #31a8ff, #1473e6)", desc: "Image Editing" },
+  { name: "JavaScript", icon: "fab fa-js", color: "linear-gradient(135deg, #f7df1e, #f0db4f)", desc: "Programming Language" },
+  { name: "Photoshop", icon: "fas fa-image", color: "linear-gradient(135deg, #31a8ff, #1473e6)", desc: "Image Editing" },
 ];
 </script>
 
