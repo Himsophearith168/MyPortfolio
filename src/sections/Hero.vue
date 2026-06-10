@@ -108,7 +108,8 @@ useReveal();
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  margin-top: 80px;
+  padding-top: 250px;
   position: relative;
 }
 
