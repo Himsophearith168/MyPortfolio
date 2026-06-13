@@ -40,12 +40,12 @@
           <!-- Stats Row -->
           <div class="hero-stats reveal-on-scroll">
             <div class="stat-item">
-              <span class="stat-number">2+</span>
+              <span class="stat-number">1+</span>
               <span class="stat-label">Years Exp.</span>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item">
-              <span class="stat-number">15+</span>
+              <span class="stat-number">5+</span>
               <span class="stat-label">Projects</span>
             </div>
             <div class="stat-divider"></div>
@@ -72,7 +72,7 @@
               <i class="fab fa-vuejs"></i>
             </div>
             <div class="float-badge badge-laravel">
-              <i class="fab fa-laravel"></i>
+              <i class="fab fa-js"></i>
             </div>
             <div class="float-badge badge-figma">
               <i class="fab fa-figma"></i>

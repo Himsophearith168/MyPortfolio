@@ -1,7 +1,7 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg fixed-top mb-5"
-    :class="{ 'is-scrolled': isScrolled }"
+    class="navbar navbar-expand-lg fixed-top"
+    :class="{ 'nav-hidden': isHidden }"
   >
     <!-- Progress Bar -->
     <div class="nav-progress">
@@ -67,12 +67,23 @@ const menu = [
 
 const { activeSection } = useScrollSpy(menu.map((item) => item.id));
 
-const isScrolled = ref(false);
 const scrollProgress = ref(0);
 const mobileOpen = ref(false);
+const isHidden = ref(false);
+const lastScrollY = ref(0);
 
 const handleScroll = () => {
-  isScrolled.value = window.scrollY > 50;
+  const currentScrollY = window.scrollY;
+  
+  // Hide on scroll down, show on scroll up
+  if (currentScrollY > lastScrollY.value && currentScrollY > 100) {
+    isHidden.value = true;
+  } else {
+    isHidden.value = false;
+  }
+  
+  lastScrollY.value = currentScrollY;
+
   const winScroll =
     document.body.scrollTop || document.documentElement.scrollTop;
   const height =
@@ -92,17 +103,17 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
   left: 0;
   right: 0;
   z-index: 1050;
-  padding: 1.25rem 0;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navbar.is-scrolled {
   padding: 0.75rem 0;
   background: rgba(3, 7, 18, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navbar.nav-hidden {
+  transform: translateY(-100%);
 }
 
 /* Progress Bar */
